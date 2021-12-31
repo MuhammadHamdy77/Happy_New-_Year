@@ -126,3 +126,30 @@ display: block;
     max-width: 600px;
 }
 
+
+
+@media (max-width: 768px){
+    .bg-home img#moon{
+    right: 37px;
+    left: auto;
+    top: 0;
+    width: 400px;
+    height: 200px;
+    }
+    .bg-home #tree{
+        width:500%;
+    }
+    .bg-home #year-22 img{
+        max-width: 350px;
+        bottom: 217px;
+        position: absolute;
+        left: 0;
+    }
+    .bg-home img#cloud1{
+        top: 40px;
+    }
+    .bg-home #text{
+        font-size: 4em;
+        line-height: 1.22;
+    }
+}
